@@ -1,9 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
+import { Namespaces } from "./Namespaces";
+import { Group } from "./Group";
+import { Report } from "./Report";
 
-export class App extends Component {
-  render(){
-    return (
-      <div>55s555</div>
-    )
-  }
+export const App:React.StatelessComponent = ()=> {
+
+  return (
+    <div>
+      <Group/>
+      {/* <Namespaces/> */}
+    </div>
+  )
 }
