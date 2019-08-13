@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import api from './api'
+import React, { useState } from 'react'
 import { Select, MenuItem } from '@material-ui/core'
 
 export const supportProducts = [
@@ -14,7 +13,7 @@ type Item = {Namespace:string,Description:string}
 
 export const Namespaces:React.StatelessComponent = ()=>{
 
-  const [ data, setData ] = useState<Item[]>([])
+  const [ ] = useState<Item[]>([])
   // useEffect(()=>{
   //   void async function(){
   //     let res = await api.get<Item[]>('/monitor/namespaces')

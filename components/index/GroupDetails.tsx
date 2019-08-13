@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Select, MenuItem, CircularProgress } from "@material-ui/core";
-import { api } from "./api";
+import { api } from "../../lib/api";
 
 export type Props = {
   GroupId: number
